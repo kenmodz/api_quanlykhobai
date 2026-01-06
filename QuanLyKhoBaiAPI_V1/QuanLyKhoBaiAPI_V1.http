@@ -1,0 +1,21 @@
+﻿@QuanLyKhoBaiAPI_V1_HostAddress = http://localhost:5232
+
+### Test 1: Lấy danh sách sản phẩm (GET)
+GET {{QuanLyKhoBaiAPI_V1_HostAddress}}/api/Products
+Accept: application/json
+
+###
+
+### Test 2: Thêm một sản phẩm mới (POST)
+POST {{QuanLyKhoBaiAPI_V1_HostAddress}}/api/Products
+Content-Type: application/json
+
+{
+  "name": "Laptop Gaming ASUS",
+  "sku": "ASUS-G01"
+}
+
+###
+
+### Test 3: Xóa sản phẩm theo ID (Thay số 1 bằng ID thực tế)
+DELETE {{QuanLyKhoBaiAPI_V1_HostAddress}}/api/Products/1

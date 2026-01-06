@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyKhoBaiAPI_V1", "QuanLyKhoBaiAPI_V1\QuanLyKhoBaiAPI_V1.csproj", "{A569FFF1-9F76-4911-90DE-AE4EE1E10D35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A569FFF1-9F76-4911-90DE-AE4EE1E10D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A569FFF1-9F76-4911-90DE-AE4EE1E10D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A569FFF1-9F76-4911-90DE-AE4EE1E10D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A569FFF1-9F76-4911-90DE-AE4EE1E10D35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5D59757-4AA0-42B1-86FD-1A3056DD0408}
+	EndGlobalSection
+EndGlobal
