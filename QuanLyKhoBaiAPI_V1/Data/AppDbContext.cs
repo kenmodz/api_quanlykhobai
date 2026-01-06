@@ -13,5 +13,6 @@ namespace QuanLyKhoBaiAPI_V1.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Warehouse> Warehouses { get; set; }
         public DbSet<Inventory> Inventories { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
